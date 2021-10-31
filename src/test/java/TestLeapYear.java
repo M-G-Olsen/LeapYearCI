@@ -15,7 +15,7 @@ public class TestLeapYear {
     @Test
     @MethodSource("LeapYear")
     public void Test_divisible_by_400() {
-        assertTrue(LeapYear.isLeapYear(3000));
+        assertTrue(LeapYear.isLeapYear(2000));
         assertTrue(LeapYear.isLeapYear(4000));
     }
 
