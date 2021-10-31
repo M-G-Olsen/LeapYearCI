@@ -27,4 +27,4 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - name: Gradle run tests
-      run: ./src/test/java/TestLeapYear
+      run: ..../TestLeapYear
